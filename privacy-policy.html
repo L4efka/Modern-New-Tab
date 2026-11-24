@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / Політика конфіденційності — Modern New Tab</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card: rgba(30, 41, 59, 0.78);
+      --border: rgba(148, 163, 184, 0.22);
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 15% 10%, #1e1b4b 0%, #0b1120 45%, #062825 100%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 36px 20px 64px;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; }
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .back-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+    .back-link:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 30px 32px;
+      margin-bottom: 22px;
+      backdrop-filter: blur(14px);
+    }
+    h1 { font-size: 1.65rem; margin-bottom: 6px; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 4px; }
+    h2 {
+      font-size: 1.3rem;
+      color: var(--accent);
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 1.04rem; margin: 16px 0 6px; color: #fff; }
+    p { margin-bottom: 10px; color: #dbeafe; font-size: 0.95rem; }
+    ul { margin: 6px 0 12px 22px; color: #cbd5e1; font-size: 0.94rem; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    code {
+      background: rgba(15, 23, 42, 0.8);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: 0.86em;
+      color: #93c5fd;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-bar">
+      <a class="back-link" href="index.html">&larr; Modern New Tab Home</a>
+    </div>
+
+    <div class="card">
+      <h1>Privacy Policy / Політика конфіденційності — Modern New Tab</h1>
+      <p class="updated"><strong>Last Updated / Останнє оновлення:</strong> 2026-11-24</p>
+    </div>
+
+    <section class="card">
+      <h2>English Version</h2>
+
+      <h3>1. Overview</h3>
+      <p><strong>Modern New Tab</strong> respects your privacy. We do not collect, sell, or share your personal data with third parties, advertisers, or analytics providers.</p>
+
+      <h3>2. Data Processed and Purpose</h3>
+      <ul>
+        <li><strong>Preferences &amp; Layout:</strong> Selected design theme, colors, clock format, search engine choice, grid scale, widget visibility and positions, Google Apps popup layout, weather animations, and UI language. Used solely to preserve your personalized dashboard.</li>
+        <li><strong>Bookmarks, Folders, Quick Notes, Pomodoro Stats &amp; Custom Wallpapers:</strong> Stored locally in your browser (<code>chrome.storage.local</code>) for fast, offline-ready access.</li>
+        <li><strong>Music Control Panel (Local Only):</strong> The <code>tabs</code> and <code>scripting</code> permissions are used exclusively to detect open supported music tabs (YouTube Music, Spotify, YouTube, SoundCloud, Apple Music, Deezer), display current track metadata, and trigger playback controls (play/pause, next/previous, mute). No tab or media data is stored or transmitted off-device.</li>
+        <li><strong>Google Sign-In (Optional):</strong> Only if you explicitly sign in with Google, the extension uses Chrome's built-in OAuth 2.0 flow (<code>chrome.identity</code>) to:
+          <ul>
+            <li>Read today's upcoming events from your <strong>Google Calendar</strong> (<code>calendar.readonly</code>);</li>
+            <li>View, create, and complete tasks in <strong>Google Tasks</strong> (<code>tasks</code>);</li>
+            <li>Automatically create a dedicated <strong>"Modern New Tab"</strong> folder in your own <strong>Google Drive</strong> to store and restore backup copies of your settings, bookmarks, notes, and custom wallpaper (<code>drive.file</code>). The extension <strong>cannot</strong> access any other files on your Google Drive.</li>
+          </ul>
+        </li>
+        <li><strong>Location / City (Optional Weather Feature):</strong> If you grant browser geolocation permission or enter a city name, only the coordinates or city name are sent directly to your selected weather provider (<strong>Open-Meteo</strong> or <strong>wttr.in</strong>) solely to retrieve current weather and forecast data.</li>
+      </ul>
+
+      <h3>3. Data Storage</h3>
+      <ul>
+        <li>Locally on your device (<code>chrome.storage.local</code>).</li>
+        <li>Lightweight UI preferences sync across your signed-in Chrome profiles via <code>chrome.storage.sync</code>.</li>
+        <li>Optional backups are stored exclusively inside your own Google Drive account (<code>Modern New Tab</code> folder).</li>
+        <li>The developer operates no backend servers and never receives your data.</li>
+      </ul>
+
+      <h3>4. Third-Party Services</h3>
+      <ul>
+        <li><strong>Google APIs (Calendar, Tasks, Drive):</strong> Governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. Modern New Tab's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+        <li><strong>Open-Meteo / wttr.in:</strong> Used solely to fetch weather data (<a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms</a>).</li>
+        <li><strong>Google Favicons:</strong> Used to render site favicons for saved bookmarks.</li>
+      </ul>
+
+      <h3>5. Data Retention &amp; User Controls</h3>
+      <ul>
+        <li>You may export all data locally to JSON, delete individual backup files from Settings, or delete the <code>Modern New Tab</code> folder directly in Google Drive at any time.</li>
+        <li>Clicking <strong>"Reset All Settings"</strong> clears all local and synced storage and revokes the Google OAuth access token.</li>
+        <li>Uninstalling the extension removes all local extension data from Chrome.</li>
+      </ul>
+
+      <h3>6. Contact</h3>
+      <p>For privacy questions or support, please contact the developer via the Chrome Web Store support page.</p>
+    </section>
+
+    <section class="card">
+      <h2>Українська версія</h2>
+
+      <h3>1. Загальні положення</h3>
+      <p>Розширення <strong>Modern New Tab</strong> поважає вашу конфіденційність. Ми не збираємо, не продаємо і не передаємо ваші персональні дані стороннім компаніям, рекламним мережам чи сервісам аналітики.</p>
+
+      <h3>2. Які дані обробляються і для чого</h3>
+      <ul>
+        <li><strong>Налаштування та інтерфейс:</strong> обрана тема оформлення, кольори, формат годинника, пошукова система, масштаб сітки, видимість та розташування віджетів, параметри меню додатків Google, анімації погоди, мова інтерфейсу. Використовується виключно для збереження вашого персонального вигляду нової вкладки.</li>
+        <li><strong>Закладки, папки, швидкі нотатки, статистика Помодоро та власні шпалери:</strong> зберігаються локально у вашому браузері (<code>chrome.storage.local</code>) для швидкої роботи навіть без інтернету.</li>
+        <li><strong>Панель керування музикою (локально):</strong> дозволи <code>tabs</code> і <code>scripting</code> використовуються виключно для виявлення відкритих музичних вкладок (YouTube Music, Spotify, YouTube, SoundCloud, Apple Music, Deezer), відображення поточного треку та керування відтворенням. Дані про вкладки не зберігаються і не передаються назовні.</li>
+        <li><strong>Google-авторизація (опціонально):</strong> якщо ви самі натиснете кнопку «Увійти», розширення отримає OAuth-токен Google через <code>chrome.identity</code> для:
+          <ul>
+            <li>читання подій на сьогодні з вашого <strong>Google Календаря</strong> (<code>calendar.readonly</code>);</li>
+            <li>перегляду, додавання та виконання завдань у <strong>Google Tasks</strong> (<code>tasks</code>);</li>
+            <li>створення папки <strong>«Modern New Tab»</strong> на вашому власному <strong>Google Диску</strong> та збереження/відновлення резервних копій налаштувань, закладок, нотаток і фону (<code>drive.file</code>). Розширення <strong>не має доступу</strong> до інших файлів на Google Диску.</li>
+          </ul>
+        </li>
+        <li><strong>Геолокація або місто (опціонально для погоди):</strong> координати чи назва міста надсилаються напряму до обраного погодного сервісу (<strong>Open-Meteo</strong> або <strong>wttr.in</strong>) виключно для отримання прогнозу погоди.</li>
+      </ul>
+
+      <h3>3. Як зберігаються дані</h3>
+      <ul>
+        <li>Локально у вашому браузері (<code>chrome.storage.local</code>).</li>
+        <li>Налаштування інтерфейсу синхронізуються між вашими пристроями через <code>chrome.storage.sync</code>.</li>
+        <li>Резервні копії (за вашим бажанням) зберігаються виключно у вашому Google Диску в папці <code>Modern New Tab</code>.</li>
+        <li>Ми не маємо власних серверів і не маємо доступу до ваших даних.</li>
+      </ul>
+
+      <h3>4. Сторонні сервіси</h3>
+      <ul>
+        <li><strong>Google APIs (Calendar, Tasks, Drive):</strong> застосовується <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Політика конфіденційності Google</a>. Використання даних відповідає <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, включаючи вимоги Limited Use.</li>
+        <li><strong>Open-Meteo / wttr.in:</strong> використовуються лише для отримання прогнозу погоди (<a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms</a>).</li>
+        <li><strong>Google Favicons:</strong> використовується для відображення фавіконок збережених сайтів.</li>
+      </ul>
+
+      <h3>5. Контроль та видалення даних</h3>
+      <ul>
+        <li>Ви можете у будь-який момент експортувати дані у JSON, видалити окремі резервні копії в налаштуваннях або видалити папку <code>Modern New Tab</code> на Google Диску.</li>
+        <li>Кнопка <strong>«Скинути всі налаштування»</strong> повністю очищає локальне й синхронізоване сховище та відкликає OAuth-токен Google.</li>
+        <li>Видалення розширення автоматично видаляє всі локально збережені дані.</li>
+      </ul>
+
+      <h3>6. Контакти</h3>
+      <p>З питань конфіденційності звертайтеся через сторінку підтримки розширення в Chrome Web Store.</p>
+    </section>
+  </div>
+</body>
+</html>
